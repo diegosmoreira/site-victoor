@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPPA 2025 | Respire</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+              heading: ['Manrope', 'sans-serif'],
+            },
+            colors: {
+              sage: {
+                50: '#F4F7F0',
+                100: '#E9EDC9',
+                200: '#CCD5AE',
+                300: '#AAB585',
+                900: '#3A4030'
+              },
+              sand: {
+                50: '#FDFCF8', // Background base
+                100: '#FAEDCD',
+                200: '#D4A373',
+                900: '#5C4030'
+              },
+              clay: {
+                100: '#E6CCB2',
+                200: '#DDB892',
+                300: '#B08968',
+                900: '#4A3225'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+        /* Warm off-white background */
+        background-color: #FDFCF8;
+      }
+      
+      html.dark {
+        background-color: #1C1917; /* Warm dark gray */
+      }
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+        background: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #CCD5AE; /* Sage 200 */
+        border-radius: 4px;
+      }
+      
+      html.dark ::-webkit-scrollbar-thumb {
+        background: #44403C;
+      }
+
+      body {
+        font-family: 'Manrope', sans-serif;
+        background-color: #FDFCF8;
+        color: #5C4030; /* Sand 900 - Dark Brownish text for softness */
+        overflow-x: hidden;
+        transition: background-color 0.5s ease, color 0.5s ease;
+      }
+      
+      html.dark body {
+        background-color: #1C1917;
+        color: #E7E5E4;
+      }
+      
+      h1, h2, h3, .font-heading {
+        font-family: 'Manrope', sans-serif;
+        letter-spacing: -0.02em;
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/site-victoor/assets/index-DrhvwEE4.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
